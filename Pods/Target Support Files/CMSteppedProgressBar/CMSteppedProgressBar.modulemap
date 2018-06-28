@@ -1,0 +1,6 @@
+framework module CMSteppedProgressBar {
+  umbrella header "CMSteppedProgressBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25074C67206E90F5009B53A2 /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 25074C66206E90F4009B53A2 /* maps.png */; };
+		2545286F206497B300B328E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2545286E206497B300B328E5 /* AppDelegate.m */; };
+		25452872206497B300B328E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25452871206497B300B328E5 /* ViewController.m */; };
+		25452875206497B300B328E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25452873206497B300B328E5 /* Main.storyboard */; };
+		2545287A206497B300B328E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25452878206497B300B328E5 /* LaunchScreen.storyboard */; };
+		2545287D206497B300B328E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2545287C206497B300B328E5 /* main.m */; };
+		254528AA20649DEC00B328E5 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254528A920649DEC00B328E5 /* SettingViewController.m */; };
+		254528AD2064A38800B328E5 /* SubwebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254528AC2064A38800B328E5 /* SubwebViewController.m */; };
+		2556EA97207CF9810096DB50 /* maps2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2556EA96207CF97D0096DB50 /* maps2.png */; };
+		25664CAA20E4B78C00052A9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25664CA920E4B78B00052A9C /* Assets.xcassets */; };
+		256AA3FD206A182A00737816 /* aircraft.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 256AA3FC206A182900737816 /* aircraft.jpg */; };
+		256AA3FF206A19C100737816 /* taipei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 256AA3FE206A19C100737816 /* taipei.jpg */; };
+		256AA401206A1BC800737816 /* sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 256AA400206A1BC700737816 /* sea.jpg */; };
+		2586F5A42068988600821A1F /* MyUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2586F5A32068988500821A1F /* MyUser.m */; };
+		25C33B7C2064E53E001ADE8B /* TelphoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C33B7B2064E53E001ADE8B /* TelphoneViewController.m */; };
+		25C33B842064E5F5001ADE8B /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C33B822064E5F5001ADE8B /* CHCSVParser.m */; };
+		25C33B872064EA23001ADE8B /* TelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C33B862064EA23001ADE8B /* TelTableViewCell.m */; };
+		25CEDA04206E79EC00B33EB6 /* RateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CEDA03206E79EC00B33EB6 /* RateViewController.m */; };
+		25DDC61A207FA64700C41435 /* tel1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 25DDC619207FA64700C41435 /* tel1.csv */; };
+		FC10E55C6FA1908EDFBF535E /* Pods_GSTraveling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551A1D3F86FDBF93B7804757 /* Pods_GSTraveling.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25074C66206E90F4009B53A2 /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
+		2545286A206497B300B328E5 /* GSTraveling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSTraveling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2545286D206497B300B328E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2545286E206497B300B328E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25452870206497B300B328E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25452871206497B300B328E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25452874206497B300B328E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25452879206497B300B328E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2545287B206497B300B328E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2545287C206497B300B328E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		254528A820649DEC00B328E5 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		254528A920649DEC00B328E5 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		254528AB2064A38800B328E5 /* SubwebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubwebViewController.h; sourceTree = "<group>"; };
+		254528AC2064A38800B328E5 /* SubwebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubwebViewController.m; sourceTree = "<group>"; };
+		2556EA96207CF97D0096DB50 /* maps2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps2.png; sourceTree = "<group>"; };
+		25664CA920E4B78B00052A9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		256AA3FC206A182900737816 /* aircraft.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aircraft.jpg; sourceTree = "<group>"; };
+		256AA3FE206A19C100737816 /* taipei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taipei.jpg; sourceTree = "<group>"; };
+		256AA400206A1BC700737816 /* sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea.jpg; sourceTree = "<group>"; };
+		2586F5A22068988500821A1F /* MyUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUser.h; sourceTree = "<group>"; };
+		2586F5A32068988500821A1F /* MyUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUser.m; sourceTree = "<group>"; };
+		25C33B7A2064E53E001ADE8B /* TelphoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TelphoneViewController.h; sourceTree = "<group>"; };
+		25C33B7B2064E53E001ADE8B /* TelphoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelphoneViewController.m; sourceTree = "<group>"; };
+		25C33B812064E5F5001ADE8B /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		25C33B822064E5F5001ADE8B /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+		25C33B852064EA23001ADE8B /* TelTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TelTableViewCell.h; sourceTree = "<group>"; };
+		25C33B862064EA23001ADE8B /* TelTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelTableViewCell.m; sourceTree = "<group>"; };
+		25CEDA02206E79EC00B33EB6 /* RateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RateViewController.h; sourceTree = "<group>"; };
+		25CEDA03206E79EC00B33EB6 /* RateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RateViewController.m; sourceTree = "<group>"; };
+		25DDC619207FA64700C41435 /* tel1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tel1.csv; sourceTree = "<group>"; };
+		3E422685F10988332A6321DD /* Pods-GSTraveling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSTraveling.release.xcconfig"; path = "Pods/Target Support Files/Pods-GSTraveling/Pods-GSTraveling.release.xcconfig"; sourceTree = "<group>"; };
+		551A1D3F86FDBF93B7804757 /* Pods_GSTraveling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSTraveling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DA8B6540B4F9A8905D2E0E /* Pods-GSTraveling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSTraveling.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSTraveling/Pods-GSTraveling.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25452867206497B300B328E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC10E55C6FA1908EDFBF535E /* Pods_GSTraveling.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25452861206497B300B328E5 = {
+			isa = PBXGroup;
+			children = (
+				256AA400206A1BC700737816 /* sea.jpg */,
+				256AA3FC206A182900737816 /* aircraft.jpg */,
+				25074C66206E90F4009B53A2 /* maps.png */,
+				256AA3FE206A19C100737816 /* taipei.jpg */,
+				2586F5A22068988500821A1F /* MyUser.h */,
+				25DDC619207FA64700C41435 /* tel1.csv */,
+				2586F5A32068988500821A1F /* MyUser.m */,
+				25C33B7F2064E5F5001ADE8B /* CHCSVParser */,
+				2545286C206497B300B328E5 /* GSTraveling */,
+				2545286B206497B300B328E5 /* Products */,
+				CA1253DC719EBB4FFE3F50BF /* Pods */,
+				837D2E19D6F8C3BD612DF595 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2545286B206497B300B328E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2545286A206497B300B328E5 /* GSTraveling.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2545286C206497B300B328E5 /* GSTraveling */ = {
+			isa = PBXGroup;
+			children = (
+				25664CA920E4B78B00052A9C /* Assets.xcassets */,
+				2545286D206497B300B328E5 /* AppDelegate.h */,
+				2545286E206497B300B328E5 /* AppDelegate.m */,
+				25452870206497B300B328E5 /* ViewController.h */,
+				25452871206497B300B328E5 /* ViewController.m */,
+				25C33B7A2064E53E001ADE8B /* TelphoneViewController.h */,
+				25C33B7B2064E53E001ADE8B /* TelphoneViewController.m */,
+				254528A820649DEC00B328E5 /* SettingViewController.h */,
+				254528A920649DEC00B328E5 /* SettingViewController.m */,
+				25452873206497B300B328E5 /* Main.storyboard */,
+				2556EA96207CF97D0096DB50 /* maps2.png */,
+				25452878206497B300B328E5 /* LaunchScreen.storyboard */,
+				2545287B206497B300B328E5 /* Info.plist */,
+				2545287C206497B300B328E5 /* main.m */,
+				254528AB2064A38800B328E5 /* SubwebViewController.h */,
+				254528AC2064A38800B328E5 /* SubwebViewController.m */,
+				25C33B852064EA23001ADE8B /* TelTableViewCell.h */,
+				25C33B862064EA23001ADE8B /* TelTableViewCell.m */,
+				25CEDA02206E79EC00B33EB6 /* RateViewController.h */,
+				25CEDA03206E79EC00B33EB6 /* RateViewController.m */,
+			);
+			path = GSTraveling;
+			sourceTree = "<group>";
+		};
+		25C33B7F2064E5F5001ADE8B /* CHCSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				25C33B812064E5F5001ADE8B /* CHCSVParser.h */,
+				25C33B822064E5F5001ADE8B /* CHCSVParser.m */,
+			);
+			path = CHCSVParser;
+			sourceTree = "<group>";
+		};
+		837D2E19D6F8C3BD612DF595 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				551A1D3F86FDBF93B7804757 /* Pods_GSTraveling.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA1253DC719EBB4FFE3F50BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5DA8B6540B4F9A8905D2E0E /* Pods-GSTraveling.debug.xcconfig */,
+				3E422685F10988332A6321DD /* Pods-GSTraveling.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25452869206497B300B328E5 /* GSTraveling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25452880206497B300B328E5 /* Build configuration list for PBXNativeTarget "GSTraveling" */;
+			buildPhases = (
+				07FFEEF22DFCA58F6F63EE9B /* [CP] Check Pods Manifest.lock */,
+				25452866206497B300B328E5 /* Sources */,
+				25452867206497B300B328E5 /* Frameworks */,
+				25452868206497B300B328E5 /* Resources */,
+				CC489EA408AA0894F16CEEB4 /* [CP] Embed Pods Frameworks */,
+				CBF1A8012A2832963566D7C2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSTraveling;
+			productName = GSTraveling;
+			productReference = 2545286A206497B300B328E5 /* GSTraveling.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25452862206497B300B328E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MyCode;
+				TargetAttributes = {
+					25452869206497B300B328E5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 25452865206497B300B328E5 /* Build configuration list for PBXProject "GSTraveling" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25452861206497B300B328E5;
+			productRefGroup = 2545286B206497B300B328E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25452869206497B300B328E5 /* GSTraveling */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25452868206497B300B328E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2545287A206497B300B328E5 /* LaunchScreen.storyboard in Resources */,
+				256AA3FF206A19C100737816 /* taipei.jpg in Resources */,
+				256AA401206A1BC800737816 /* sea.jpg in Resources */,
+				25074C67206E90F5009B53A2 /* maps.png in Resources */,
+				256AA3FD206A182A00737816 /* aircraft.jpg in Resources */,
+				25452875206497B300B328E5 /* Main.storyboard in Resources */,
+				2556EA97207CF9810096DB50 /* maps2.png in Resources */,
+				25664CAA20E4B78C00052A9C /* Assets.xcassets in Resources */,
+				25DDC61A207FA64700C41435 /* tel1.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07FFEEF22DFCA58F6F63EE9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSTraveling-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBF1A8012A2832963566D7C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GSTraveling/Pods-GSTraveling-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MBCircularProgressBar/MBCircularProgressBar.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MBCircularProgressBar.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GSTraveling/Pods-GSTraveling-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC489EA408AA0894F16CEEB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GSTraveling/Pods-GSTraveling-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/AYStepperView/AYStepperView.framework",
+				"${BUILT_PRODUCTS_DIR}/CommonUser/CommonUser.framework",
+				"${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AYStepperView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CommonUser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBCircularProgressBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GSTraveling/Pods-GSTraveling-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25452866206497B300B328E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25CEDA04206E79EC00B33EB6 /* RateViewController.m in Sources */,
+				25452872206497B300B328E5 /* ViewController.m in Sources */,
+				25C33B7C2064E53E001ADE8B /* TelphoneViewController.m in Sources */,
+				2545287D206497B300B328E5 /* main.m in Sources */,
+				2545286F206497B300B328E5 /* AppDelegate.m in Sources */,
+				25C33B842064E5F5001ADE8B /* CHCSVParser.m in Sources */,
+				25C33B872064EA23001ADE8B /* TelTableViewCell.m in Sources */,
+				254528AD2064A38800B328E5 /* SubwebViewController.m in Sources */,
+				2586F5A42068988600821A1F /* MyUser.m in Sources */,
+				254528AA20649DEC00B328E5 /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25452873206497B300B328E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25452874206497B300B328E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25452878206497B300B328E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25452879206497B300B328E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2545287E206497B300B328E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2545287F206497B300B328E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25452881206497B300B328E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5DA8B6540B4F9A8905D2E0E /* Pods-GSTraveling.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YT6YT5Z5FB;
+				INFOPLIST_FILE = GSTraveling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Code.GSTraveling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25452882206497B300B328E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E422685F10988332A6321DD /* Pods-GSTraveling.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YT6YT5Z5FB;
+				INFOPLIST_FILE = GSTraveling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Code.GSTraveling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25452865206497B300B328E5 /* Build configuration list for PBXProject "GSTraveling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2545287E206497B300B328E5 /* Debug */,
+				2545287F206497B300B328E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25452880206497B300B328E5 /* Build configuration list for PBXNativeTarget "GSTraveling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25452881206497B300B328E5 /* Debug */,
+				25452882206497B300B328E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25452862206497B300B328E5 /* Project object */;
+}

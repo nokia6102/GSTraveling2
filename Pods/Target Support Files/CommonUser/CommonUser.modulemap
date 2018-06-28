@@ -1,0 +1,6 @@
+framework module CommonUser {
+  umbrella header "CommonUser-umbrella.h"
+
+  export *
+  module * { export * }
+}
